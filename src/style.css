@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+container {
+  padding-top: 80px;
+}
+
+header {
+  padding: 50px 10px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(151, 150, 240), rgb(251, 199, 212));
+  text-align: center;
+}
+
+.header-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, rgb(151, 150, 240), rgb(251, 199, 212));
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.header-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header-menu ul li a:hover {
+  color: #6c63ff;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.website-description {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-family: "Rubik", sans-serif;
+}
+
+.cta-button a {
+  background: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Rubik", sans-serif;
+  margin: 0 auto;
+  display: table;
+}
