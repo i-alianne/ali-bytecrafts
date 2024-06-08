@@ -76,8 +76,9 @@ header {
   width: 90%;
   display: block;
   margin: 0 auto;
-  padding: 10px 30px 30px;
+  padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(132, 170, 189, 0.8);
 }
 
 .section-title {
@@ -92,9 +93,38 @@ header {
 .carousel {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  margin: 10px;
+  grid-gap: 40px;
   padding: 20px;
+}
+
+.project-item h3 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.project-description {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.project-item button {
+  padding: 10px 20px;
+  color: #fff;
+  background: black;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 3px 24px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+  font-size: 16px;
+}
+
+.project-item button:hover {
+  background: #f65282;
+  color: #fff;
 }
 
 .contact-info {
