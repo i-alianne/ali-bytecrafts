@@ -58,6 +58,7 @@ header {
   box-shadow: 2px 3px 24px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-in-out;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .self-presentation button:hover {
@@ -79,6 +80,19 @@ header {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(132, 170, 189, 0.8);
+}
+
+.project-picture {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+}
+
+.project-picture:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .section-title {
@@ -120,6 +134,7 @@ header {
   box-shadow: 2px 3px 24px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-in-out;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .project-item button:hover {
