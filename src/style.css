@@ -8,6 +8,7 @@ body {
 }
 
 header {
+  height: 80vh;
   padding: 10px;
 }
 .menu-bar {
