@@ -146,8 +146,16 @@ header {
 .contact-info {
   display: flex;
   justify-content: space-between;
-  margin: 0 30px;
+  justify-content: space-evenly;
+  gap: 40px;
+  margin: 0 20px;
   padding: 10px;
+  width: 80%;
+  vertical-align: middle;
+}
+
+.contact-info p {
+  padding: 10px 20px;
 }
 
 footer {
