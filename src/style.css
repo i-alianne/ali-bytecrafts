@@ -11,9 +11,26 @@ header {
   height: 80vh;
   padding: 10px;
 }
+
 .menu-bar {
   display: flex;
   justify-content: space-between;
+  background: linear-gradient(
+    to right,
+    rgba(151, 150, 240, 0.5),
+    rgba(251, 199, 212, 0.5)
+  );
+  margin: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 5;
+  width: 100%;
+}
+
+.website-logo {
+  width: 44px;
 }
 
 .header-menu ul {
@@ -21,15 +38,27 @@ header {
   justify-content: space-between;
   gap: 30px;
   list-style: none;
-  padding: 0 20px;
+  padding: 0 30px;
+  margin: 10px 20px;
   font-size: 16px;
   font-weight: lighter;
+}
+
+.header-menu a {
+  padding: 0 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.header-menu a:hover {
+  color: #f65282;
+  cursor: pointer;
 }
 
 .site-title {
   display: flex;
   justify-content: space-around;
-  margin: 0 auto;
+  margin: 60px auto;
   width: 60%;
   gap: 30px;
   padding: 40px;
