@@ -12,8 +12,9 @@ header {
   padding: 10px;
 }
 
-.website-logo {
+.logo {
   width: 44px;
+  height: auto;
 }
 
 .site-title {
